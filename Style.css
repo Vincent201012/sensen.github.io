@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+Margin : 0;
+Padding:0;
+}
+Body{
+font-family:'Roboto', sans-serif;
+background-color:#DEB887;
+}
+.header{
+ background-position:fixed;
+ background-image:url(profil.jpg);
+ }
+ .navbar {
+	float: center;
+	background-color: #191970;
+	width: 100%;
+	display: inline-block;
+	position: sticky;	
+}
+
+.navbar ul li {
+	float: left;
+	list-style: none;	
+}
+
+
+.navbar ul li a {
+	color:white;
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+	font-weight: bold;
+}
+
+.navbar ul li a:hover {
+	background:white;
+	color: black;
+}
+
+
+
+.center ul {
+	width: -moz-fit-content;
+	width: -webkit-fit-content;
+	width: fit-content;
+	margin: auto;
+}
+	
+	p {
+		font-family:'Oswald'; 
+		text-align:justify;
+	}
+	
+	p::first-letter {
+		font-size:200%;
+		color:blue;
+		}
+	h1{
+		font-family:'Modak';
+		text-shadow:2px 5px 8px blue;
+		text-transform:uppercase;
+		}
+		
+	.Paragraf1{
+		background-color:green;	
+		}
+	.Paragraf2{
+		background-color:aqua;
+		}
+	footer {
+		background-color: #FF69B4;
+	padding: 5px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	}
+	
